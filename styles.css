@@ -21,6 +21,10 @@ header {
     color: whi;
 }
 
+.website-head li:hover {
+    font-size: 1.6em;
+}
+
 .website-head a {
     text-decoration: none;
     color: #fff;
@@ -30,7 +34,26 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 0px;
+    border: 0px;
     font-family: 'Times New Roman', Times, serif;
     background-color: gold;
-    margin-bottom: 50px;
+}
+
+.lista-produtos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: darkgrey;
+    height: 300px;
+}
+
+.foot {
+    display: flex;
+    text-align: center;
+    min-height: 50px;
+    color: white;
+    background-color: rgb(46, 45, 45);
+    width: 100%;
 }
