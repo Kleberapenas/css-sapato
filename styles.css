@@ -1,0 +1,36 @@
+header {
+    display: flex; /* Define o header como um container flex */
+    justify-content: space-between; /* Espaça o conteúdo ao longo do eixo principal */
+    align-items: center; /* Alinha o conteúdo ao longo do eixo cruzado */
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+.website-head ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.website-head li {
+    margin: 0 15px;
+    list-style: none;
+    font-size: 1.4em;
+    text-decoration: none;
+    color: whi;
+}
+
+.website-head a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.welcome-banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: gold;
+    margin-bottom: 50px;
+}
